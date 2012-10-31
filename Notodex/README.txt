@@ -12,7 +12,6 @@ Current Features:
 - Tap any business card to see its title as a caption
 - Scrolling through all of your business cards is a breeze with Notodex!
 - Business cards are ordered by most recent, so you can quickly find the name of that hiring manager you just met
-- Beautiful Notodex app icon made in Evernote's Penultimate and Skitch apps! Download both in the App Store today!
 
 Future Features:
 
@@ -20,6 +19,6 @@ Future Features:
 - Search for a particular business card from within the slideshow
 - Allow Notodex to grab business cards with user-defined tags
 - View business cards from multiple notebooks at once
-- Notodex Premium users will be able to browse through business cards while offline
-- Notodex Preimum users will also be able to see more than 500 cards at once
+- Offline viewing of business cards
+- Be able to see more than MAX_PHOTOS_TO_RETURN business cards
 - Universal app coming soon!
