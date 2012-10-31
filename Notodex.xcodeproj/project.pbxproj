@@ -16,13 +16,9 @@
 		A12E4F03163FB1C900B80F1B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12E4F01163FB1C900B80F1B /* MainStoryboard.storyboard */; };
 		A12E4F06163FB1C900B80F1B /* NotodexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F05163FB1C900B80F1B /* NotodexViewController.m */; };
 		A12E4F54163FB26900B80F1B /* GCOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F10163FB26900B80F1B /* GCOAuth.m */; };
-		A12E4F55163FB26900B80F1B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A12E4F11163FB26900B80F1B /* LICENSE */; };
 		A12E4F56163FB26900B80F1B /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F13163FB26900B80F1B /* NSData+Base64.m */; };
-		A12E4F57163FB26900B80F1B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A12E4F15163FB26900B80F1B /* LICENSE */; };
 		A12E4F58163FB26900B80F1B /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F17163FB26900B80F1B /* NSString+URLEncoding.m */; };
-		A12E4F59163FB26900B80F1B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A12E4F19163FB26900B80F1B /* LICENSE */; };
 		A12E4F5A163FB26900B80F1B /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F1B163FB26900B80F1B /* SSKeychain.m */; };
-		A12E4F5B163FB26900B80F1B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A12E4F1D163FB26900B80F1B /* LICENSE */; };
 		A12E4F5C163FB26900B80F1B /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F20163FB26900B80F1B /* TBinaryProtocol.m */; };
 		A12E4F5D163FB26900B80F1B /* TProtocolException.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F23163FB26900B80F1B /* TProtocolException.m */; };
 		A12E4F5E163FB26900B80F1B /* TProtocolUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F26163FB26900B80F1B /* TProtocolUtil.m */; };
@@ -147,10 +143,10 @@
 		A12E4F86163FB31A00B80F1B /* FGalleryPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGalleryPhotoView.m; sourceTree = "<group>"; };
 		A12E4F87163FB31A00B80F1B /* FGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGalleryViewController.h; sourceTree = "<group>"; };
 		A12E4F88163FB31A00B80F1B /* FGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGalleryViewController.m; sourceTree = "<group>"; };
-		A12E4F89163FB31A00B80F1B /* photo-gallery-edit-caption.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-gallery-edit-caption.png"; path = "../evernote-sdk-ios/photo-gallery-edit-caption.png"; sourceTree = "<group>"; };
-		A12E4F8A163FB31A00B80F1B /* photo-gallery-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-gallery-left.png"; path = "../evernote-sdk-ios/photo-gallery-left.png"; sourceTree = "<group>"; };
-		A12E4F8B163FB31A00B80F1B /* photo-gallery-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-gallery-right.png"; path = "../evernote-sdk-ios/photo-gallery-right.png"; sourceTree = "<group>"; };
-		A12E4F8C163FB31A00B80F1B /* photo-gallery-trashcan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-gallery-trashcan.png"; path = "../evernote-sdk-ios/photo-gallery-trashcan.png"; sourceTree = "<group>"; };
+		A12E4F89163FB31A00B80F1B /* photo-gallery-edit-caption.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-gallery-edit-caption.png"; path = "../FGallery/photo-gallery-edit-caption.png"; sourceTree = "<group>"; };
+		A12E4F8A163FB31A00B80F1B /* photo-gallery-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-gallery-left.png"; path = "../FGallery/photo-gallery-left.png"; sourceTree = "<group>"; };
+		A12E4F8B163FB31A00B80F1B /* photo-gallery-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-gallery-right.png"; path = "../FGallery/photo-gallery-right.png"; sourceTree = "<group>"; };
+		A12E4F8C163FB31A00B80F1B /* photo-gallery-trashcan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-gallery-trashcan.png"; path = "../FGallery/photo-gallery-trashcan.png"; sourceTree = "<group>"; };
 		A12E4F94163FB3DB00B80F1B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		A12E4F9A163FB41B00B80F1B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A12E4F9C163FB54E00B80F1B /* NotebooksListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotebooksListViewController.h; sourceTree = "<group>"; };
@@ -403,8 +399,7 @@
 				A12E4F87163FB31A00B80F1B /* FGalleryViewController.h */,
 				A12E4F88163FB31A00B80F1B /* FGalleryViewController.m */,
 			);
-			name = FGallery;
-			path = "evernote-sdk-ios";
+			path = FGallery;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -461,10 +456,6 @@
 			files = (
 				A12E4EF4163FB1C900B80F1B /* InfoPlist.strings in Resources */,
 				A12E4F03163FB1C900B80F1B /* MainStoryboard.storyboard in Resources */,
-				A12E4F55163FB26900B80F1B /* LICENSE in Resources */,
-				A12E4F57163FB26900B80F1B /* LICENSE in Resources */,
-				A12E4F59163FB26900B80F1B /* LICENSE in Resources */,
-				A12E4F5B163FB26900B80F1B /* LICENSE in Resources */,
 				A12E4F90163FB31A00B80F1B /* photo-gallery-edit-caption.png in Resources */,
 				A12E4F91163FB31A00B80F1B /* photo-gallery-left.png in Resources */,
 				A12E4F92163FB31A00B80F1B /* photo-gallery-right.png in Resources */,
