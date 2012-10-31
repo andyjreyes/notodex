@@ -31,8 +31,8 @@
     
     // Fill in the consumer key and secret with the values that you received from Evernote
     // To get an API key, visit http://dev.evernote.com/documentation/cloud/
-    NSString *CONSUMER_KEY = @"andyjreyes";
-    NSString *CONSUMER_SECRET = @"424078a89e2e9492";
+    NSString *CONSUMER_KEY = @""; //YOUR EVERNOTE CONSUMER KEY;
+    NSString *CONSUMER_SECRET = @""; //YOUR EVERNOTE CONSUMER SECRET;
     
     // set up Evernote session singleton
     [EvernoteSession setSharedSessionHost:EVERNOTE_HOST
