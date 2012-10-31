@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="knN-Kt-s9a">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
+    </dependencies>
+    <scenes>
+        <!--Notodex View Controller - NotodexViewController-->
+        <scene sceneID="5">
+            <objects>
+                <viewController title="NotodexViewController" id="2" customClass="NotodexViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Notodex" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBM-NV-57s">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="486-89-Oka"/>
+                                    <constraint firstAttribute="width" constant="188" id="gtg-38-BbA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRk-QB-FiL">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Sign In">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="authenticate:" destination="2" eventType="touchUpInside" id="24P-KL-EV9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="An Evernote-Powered Rolodex" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxQ-r6-XMd">
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Please sign in" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ext-Uz-8VN">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="sNm-X0-FYW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzf-dz-eBq">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="168" id="xLd-N7-4K4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Choose a Notebook">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="listNotes:" destination="2" eventType="touchUpInside" id="CHq-rV-8a6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQS-5A-Kyb">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Sign Out">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="logout:" destination="2" eventType="touchUpInside" id="Ll7-56-t3m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mkM-E6-J69">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZmV-Ry-KcK" kind="modal" identifier="ShowInfo" modalTransitionStyle="partialCurl" id="ZqI-qE-x7D"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uzf-dz-eBq" firstAttribute="trailing" secondItem="mRk-QB-FiL" secondAttribute="trailing" type="default" id="4Dm-L1-3Le"/>
+                            <constraint firstItem="uzf-dz-eBq" firstAttribute="top" secondItem="3" secondAttribute="top" constant="121" id="6cI-eF-7nA"/>
+                            <constraint firstItem="UQS-5A-Kyb" firstAttribute="leading" secondItem="uzf-dz-eBq" secondAttribute="leading" type="default" id="8cw-nd-PFx"/>
+                            <constraint firstItem="cxQ-r6-XMd" firstAttribute="top" secondItem="xBM-NV-57s" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Bli-rd-XNA"/>
+                            <constraint firstItem="Ext-Uz-8VN" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="DoX-rX-PWL"/>
+                            <constraint firstAttribute="trailing" secondItem="mkM-E6-J69" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Jz8-7R-GEa"/>
+                            <constraint firstItem="xBM-NV-57s" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="NFZ-83-QCO"/>
+                            <constraint firstAttribute="bottom" secondItem="mkM-E6-J69" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="QTC-nr-Q4b"/>
+                            <constraint firstItem="Ext-Uz-8VN" firstAttribute="top" secondItem="UQS-5A-Kyb" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="WjO-zT-1YW"/>
+                            <constraint firstItem="Ext-Uz-8VN" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="YXg-ac-lVe"/>
+                            <constraint firstItem="cxQ-r6-XMd" firstAttribute="centerX" secondItem="xBM-NV-57s" secondAttribute="centerX" type="default" id="Z1q-4L-bxN"/>
+                            <constraint firstItem="UQS-5A-Kyb" firstAttribute="top" secondItem="mRk-QB-FiL" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="hiR-B1-LWc"/>
+                            <constraint firstItem="mRk-QB-FiL" firstAttribute="centerX" secondItem="cxQ-r6-XMd" secondAttribute="centerX" type="default" id="jgW-5R-io1"/>
+                            <constraint firstItem="uzf-dz-eBq" firstAttribute="leading" secondItem="mRk-QB-FiL" secondAttribute="leading" type="default" id="kS9-6S-nlM"/>
+                            <constraint firstItem="UQS-5A-Kyb" firstAttribute="trailing" secondItem="mRk-QB-FiL" secondAttribute="trailing" type="default" id="qRN-jI-FEd"/>
+                            <constraint firstItem="uzf-dz-eBq" firstAttribute="baseline" secondItem="mRk-QB-FiL" secondAttribute="baseline" type="default" id="qfP-o5-6HT"/>
+                            <constraint firstItem="cxQ-r6-XMd" firstAttribute="centerX" secondItem="Ext-Uz-8VN" secondAttribute="centerX" type="default" id="va5-i5-Ddf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Welcome" id="gNA-jc-Mxh">
+                        <barButtonItem key="backBarButtonItem" title="Sign Out" id="Mpe-vt-1jd"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="authenticateButton" destination="mRk-QB-FiL" id="m1h-mj-LyV"/>
+                        <outlet property="listNotebooksButton" destination="uzf-dz-eBq" id="3mT-5j-EBJ"/>
+                        <outlet property="logoutButton" destination="UQS-5A-Kyb" id="87Y-p5-YPV"/>
+                        <outlet property="userLabel" destination="Ext-Uz-8VN" id="3Xm-aJ-2dB"/>
+                        <segue destination="0wX-4C-r3o" kind="push" identifier="ShowNotebooksList" id="kYa-P8-cr1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="320" y="270"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uAY-5A-B4w">
+            <objects>
+                <viewController id="ZmV-Ry-KcK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vhx-zc-M0M">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Notodex takes your business card images from Evernote and displays them for you in an elegant slideshow." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="302" translatesAutoresizingMaskIntoConstraints="NO" id="Wm1-mY-F2S">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="QRa-cV-5u1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Only images within notes tagged with 'Business Card' or 'Business Cards' are shown." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="296" translatesAutoresizingMaskIntoConstraints="NO" id="ZaT-sk-gZ5">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="296" id="0Ag-Wx-YTX"/>
+                                    <constraint firstAttribute="height" constant="84" id="1CS-bc-6EP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Thank you for using Notodex!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="289" translatesAutoresizingMaskIntoConstraints="NO" id="udE-3F-oHx">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="84" id="Brv-8u-T3S"/>
+                                    <constraint firstAttribute="width" constant="289" id="ZJr-Zk-Nth"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZaT-sk-gZ5" firstAttribute="top" secondItem="vhx-zc-M0M" secondAttribute="top" constant="164" id="7V8-1m-Tml"/>
+                            <constraint firstItem="Wm1-mY-F2S" firstAttribute="top" secondItem="vhx-zc-M0M" secondAttribute="top" constant="79" id="7q4-QB-jwN"/>
+                            <constraint firstItem="udE-3F-oHx" firstAttribute="top" secondItem="vhx-zc-M0M" secondAttribute="top" constant="220" id="KIZ-Xd-0YV"/>
+                            <constraint firstItem="udE-3F-oHx" firstAttribute="centerX" secondItem="Wm1-mY-F2S" secondAttribute="centerX" type="default" id="OJV-MK-5Pl"/>
+                            <constraint firstItem="Wm1-mY-F2S" firstAttribute="leading" secondItem="ZaT-sk-gZ5" secondAttribute="leading" type="default" id="Tlp-JN-85R"/>
+                            <constraint firstItem="ZaT-sk-gZ5" firstAttribute="trailing" secondItem="udE-3F-oHx" secondAttribute="trailing" type="default" id="dvs-lC-Dur"/>
+                            <constraint firstItem="udE-3F-oHx" firstAttribute="centerX" secondItem="vhx-zc-M0M" secondAttribute="centerX" type="default" id="fEl-JF-4Cl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KYY-Fh-eE6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="876" y="799"/>
+        </scene>
+        <!--Notebooks List View Controller - NotebooksList-->
+        <scene sceneID="t8B-5a-j2W">
+            <objects>
+                <tableViewController title="NotebooksList" id="0wX-4C-r3o" customClass="NotebooksListViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="iix-WU-pfc">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="NotebookListViewCell" textLabel="cat-8f-5Af" detailTextLabel="hma-fq-Ct8" style="IBUITableViewCellStyleSubtitle" id="Yrs-uN-Utl">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cat-8f-5Af">
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hma-fq-Ct8">
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="0wX-4C-r3o" id="Ur1-fo-Nrd"/>
+                            <outlet property="delegate" destination="0wX-4C-r3o" id="X9g-O3-Od9"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Notebook List" id="7vE-fo-9O3">
+                        <barButtonItem key="backBarButtonItem" title="Notebooks" id="9xG-q9-v1J"/>
+                    </navigationItem>
+                    <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="qh2-O5-xr2">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </refreshControl>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kSF-5W-Qvg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="876" y="120"/>
+        </scene>
+        <!--Navigation Controller - NotodexNavigationController-->
+        <scene sceneID="rwn-XJ-R2u">
+            <objects>
+                <navigationController title="NotodexNavigationController" id="knN-Kt-s9a" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackOpaque" id="tY7-9U-GOF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="Dfk-fH-Qrj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hJR-go-lvB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-87" y="270"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="NotebooksListViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NotebooksListViewController.h"/>
+        </class>
+        <class className="NotodexViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NotodexViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="authenticate:"/>
+                <relationship kind="action" name="listNotes:"/>
+                <relationship kind="action" name="logout:"/>
+                <relationship kind="outlet" name="authenticateButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="listNotebooksButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="logoutButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="userLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="UIRefreshControl" superclassName="UIControl">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UIRefreshControl.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

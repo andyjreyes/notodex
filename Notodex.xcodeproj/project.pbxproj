@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A12E4EEA163FB1C900B80F1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12E4EE9163FB1C900B80F1B /* UIKit.framework */; };
+		A12E4EEC163FB1C900B80F1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12E4EEB163FB1C900B80F1B /* Foundation.framework */; };
+		A12E4EEE163FB1C900B80F1B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12E4EED163FB1C900B80F1B /* CoreGraphics.framework */; };
+		A12E4EF4163FB1C900B80F1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A12E4EF2163FB1C900B80F1B /* InfoPlist.strings */; };
+		A12E4EF6163FB1C900B80F1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4EF5163FB1C900B80F1B /* main.m */; };
+		A12E4EFA163FB1C900B80F1B /* NotodexAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4EF9163FB1C900B80F1B /* NotodexAppDelegate.m */; };
+		A12E4F03163FB1C900B80F1B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12E4F01163FB1C900B80F1B /* MainStoryboard.storyboard */; };
+		A12E4F06163FB1C900B80F1B /* NotodexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F05163FB1C900B80F1B /* NotodexViewController.m */; };
+		A12E4F54163FB26900B80F1B /* GCOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F10163FB26900B80F1B /* GCOAuth.m */; };
+		A12E4F55163FB26900B80F1B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A12E4F11163FB26900B80F1B /* LICENSE */; };
+		A12E4F56163FB26900B80F1B /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F13163FB26900B80F1B /* NSData+Base64.m */; };
+		A12E4F57163FB26900B80F1B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A12E4F15163FB26900B80F1B /* LICENSE */; };
+		A12E4F58163FB26900B80F1B /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F17163FB26900B80F1B /* NSString+URLEncoding.m */; };
+		A12E4F59163FB26900B80F1B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A12E4F19163FB26900B80F1B /* LICENSE */; };
+		A12E4F5A163FB26900B80F1B /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F1B163FB26900B80F1B /* SSKeychain.m */; };
+		A12E4F5B163FB26900B80F1B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A12E4F1D163FB26900B80F1B /* LICENSE */; };
+		A12E4F5C163FB26900B80F1B /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F20163FB26900B80F1B /* TBinaryProtocol.m */; };
+		A12E4F5D163FB26900B80F1B /* TProtocolException.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F23163FB26900B80F1B /* TProtocolException.m */; };
+		A12E4F5E163FB26900B80F1B /* TProtocolUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F26163FB26900B80F1B /* TProtocolUtil.m */; };
+		A12E4F5F163FB26900B80F1B /* TApplicationException.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F28163FB26900B80F1B /* TApplicationException.m */; };
+		A12E4F60163FB26900B80F1B /* TException.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F2A163FB26900B80F1B /* TException.m */; };
+		A12E4F61163FB26900B80F1B /* THTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F30163FB26900B80F1B /* THTTPClient.m */; };
+		A12E4F62163FB26900B80F1B /* TMemoryBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F32163FB26900B80F1B /* TMemoryBuffer.m */; };
+		A12E4F63163FB26900B80F1B /* TTransportException.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F35163FB26900B80F1B /* TTransportException.m */; };
+		A12E4F64163FB26900B80F1B /* EDAMErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F39163FB26900B80F1B /* EDAMErrors.m */; };
+		A12E4F65163FB26900B80F1B /* EDAMLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F3B163FB26900B80F1B /* EDAMLimits.m */; };
+		A12E4F66163FB26900B80F1B /* EDAMNoteStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F3D163FB26900B80F1B /* EDAMNoteStore.m */; };
+		A12E4F67163FB26900B80F1B /* EDAMTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F3F163FB26900B80F1B /* EDAMTypes.m */; };
+		A12E4F68163FB26900B80F1B /* EDAMUserStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F41163FB26900B80F1B /* EDAMUserStore.m */; };
+		A12E4F69163FB26900B80F1B /* EvernoteNoteStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F43163FB26900B80F1B /* EvernoteNoteStore.m */; };
+		A12E4F6A163FB26900B80F1B /* EvernoteSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F45163FB26900B80F1B /* EvernoteSDK.m */; };
+		A12E4F6B163FB26900B80F1B /* EvernoteSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F47163FB26900B80F1B /* EvernoteSession.m */; };
+		A12E4F6C163FB26900B80F1B /* EvernoteUserStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F49163FB26900B80F1B /* EvernoteUserStore.m */; };
+		A12E4F6D163FB26900B80F1B /* ENAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F4C163FB26900B80F1B /* ENAPI.m */; };
+		A12E4F6E163FB26900B80F1B /* ENCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F4E163FB26900B80F1B /* ENCredentials.m */; };
+		A12E4F6F163FB26900B80F1B /* ENCredentialStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F50163FB26900B80F1B /* ENCredentialStore.m */; };
+		A12E4F70163FB26900B80F1B /* ENOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F52163FB26900B80F1B /* ENOAuthViewController.m */; };
+		A12E4F8D163FB31A00B80F1B /* FGalleryPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F84163FB31A00B80F1B /* FGalleryPhoto.m */; };
+		A12E4F8E163FB31A00B80F1B /* FGalleryPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F86163FB31A00B80F1B /* FGalleryPhotoView.m */; };
+		A12E4F8F163FB31A00B80F1B /* FGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F88163FB31A00B80F1B /* FGalleryViewController.m */; };
+		A12E4F90163FB31A00B80F1B /* photo-gallery-edit-caption.png in Resources */ = {isa = PBXBuildFile; fileRef = A12E4F89163FB31A00B80F1B /* photo-gallery-edit-caption.png */; };
+		A12E4F91163FB31A00B80F1B /* photo-gallery-left.png in Resources */ = {isa = PBXBuildFile; fileRef = A12E4F8A163FB31A00B80F1B /* photo-gallery-left.png */; };
+		A12E4F92163FB31A00B80F1B /* photo-gallery-right.png in Resources */ = {isa = PBXBuildFile; fileRef = A12E4F8B163FB31A00B80F1B /* photo-gallery-right.png */; };
+		A12E4F93163FB31A00B80F1B /* photo-gallery-trashcan.png in Resources */ = {isa = PBXBuildFile; fileRef = A12E4F8C163FB31A00B80F1B /* photo-gallery-trashcan.png */; };
+		A12E4F95163FB3DB00B80F1B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12E4F94163FB3DB00B80F1B /* Security.framework */; };
+		A12E4F9B163FB41B00B80F1B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12E4F9A163FB41B00B80F1B /* QuartzCore.framework */; };
+		A12E4F9E163FB54E00B80F1B /* NotebooksListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12E4F9D163FB54E00B80F1B /* NotebooksListViewController.m */; };
+		A16FEE8D163FEEF400577CF2 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A16FEE8C163FEEF400577CF2 /* LICENSE.txt */; };
+		A16FEE90163FF4B700577CF2 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A16FEE8F163FF4B700577CF2 /* README.txt */; };
+		A1A8912F163FDC8D0023FAF1 /* NotodexLogoRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A8912E163FDC8D0023FAF1 /* NotodexLogoRetina.png */; };
+		A1A89131163FDCD30023FAF1 /* NotodexLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A89130163FDCD30023FAF1 /* NotodexLogo.png */; };
+		A1A89135163FDE530023FAF1 /* Launch.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A89134163FDE530023FAF1 /* Launch.png */; };
+		A1A8913B163FE0610023FAF1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A8913A163FE0610023FAF1 /* Default@2x.png */; };
+		A1A8913D163FE0720023FAF1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A8913C163FE0720023FAF1 /* Default.png */; };
+		A1A8913F163FE0D70023FAF1 /* LaunchRetina3-5.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A8913E163FE0D70023FAF1 /* LaunchRetina3-5.png */; };
+		A1A89141163FE1140023FAF1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A89140163FE1140023FAF1 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A12E4EE5163FB1C900B80F1B /* Notodex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notodex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12E4EE9163FB1C900B80F1B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A12E4EEB163FB1C900B80F1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A12E4EED163FB1C900B80F1B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A12E4EF1163FB1C900B80F1B /* Notodex-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Notodex-Info.plist"; sourceTree = "<group>"; };
+		A12E4EF3163FB1C900B80F1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A12E4EF5163FB1C900B80F1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A12E4EF7163FB1C900B80F1B /* Notodex-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Notodex-Prefix.pch"; sourceTree = "<group>"; };
+		A12E4EF8163FB1C900B80F1B /* NotodexAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotodexAppDelegate.h; sourceTree = "<group>"; };
+		A12E4EF9163FB1C900B80F1B /* NotodexAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotodexAppDelegate.m; sourceTree = "<group>"; };
+		A12E4F02163FB1C900B80F1B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A12E4F04163FB1C900B80F1B /* NotodexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotodexViewController.h; sourceTree = "<group>"; };
+		A12E4F05163FB1C900B80F1B /* NotodexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotodexViewController.m; sourceTree = "<group>"; };
+		A12E4F0F163FB26900B80F1B /* GCOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCOAuth.h; sourceTree = "<group>"; };
+		A12E4F10163FB26900B80F1B /* GCOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCOAuth.m; sourceTree = "<group>"; };
+		A12E4F11163FB26900B80F1B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A12E4F12163FB26900B80F1B /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		A12E4F13163FB26900B80F1B /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		A12E4F15163FB26900B80F1B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A12E4F16163FB26900B80F1B /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		A12E4F17163FB26900B80F1B /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		A12E4F19163FB26900B80F1B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A12E4F1A163FB26900B80F1B /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		A12E4F1B163FB26900B80F1B /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		A12E4F1D163FB26900B80F1B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A12E4F1F163FB26900B80F1B /* TBinaryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBinaryProtocol.h; sourceTree = "<group>"; };
+		A12E4F20163FB26900B80F1B /* TBinaryProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBinaryProtocol.m; sourceTree = "<group>"; };
+		A12E4F21163FB26900B80F1B /* TProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocol.h; sourceTree = "<group>"; };
+		A12E4F22163FB26900B80F1B /* TProtocolException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolException.h; sourceTree = "<group>"; };
+		A12E4F23163FB26900B80F1B /* TProtocolException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolException.m; sourceTree = "<group>"; };
+		A12E4F24163FB26900B80F1B /* TProtocolFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolFactory.h; sourceTree = "<group>"; };
+		A12E4F25163FB26900B80F1B /* TProtocolUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolUtil.h; sourceTree = "<group>"; };
+		A12E4F26163FB26900B80F1B /* TProtocolUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolUtil.m; sourceTree = "<group>"; };
+		A12E4F27163FB26900B80F1B /* TApplicationException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TApplicationException.h; sourceTree = "<group>"; };
+		A12E4F28163FB26900B80F1B /* TApplicationException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TApplicationException.m; sourceTree = "<group>"; };
+		A12E4F29163FB26900B80F1B /* TException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TException.h; sourceTree = "<group>"; };
+		A12E4F2A163FB26900B80F1B /* TException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TException.m; sourceTree = "<group>"; };
+		A12E4F2B163FB26900B80F1B /* Thrift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thrift.h; sourceTree = "<group>"; };
+		A12E4F2C163FB26900B80F1B /* TProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessor.h; sourceTree = "<group>"; };
+		A12E4F2D163FB26900B80F1B /* TProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessorFactory.h; sourceTree = "<group>"; };
+		A12E4F2F163FB26900B80F1B /* THTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTTPClient.h; sourceTree = "<group>"; };
+		A12E4F30163FB26900B80F1B /* THTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTTPClient.m; sourceTree = "<group>"; };
+		A12E4F31163FB26900B80F1B /* TMemoryBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMemoryBuffer.h; sourceTree = "<group>"; };
+		A12E4F32163FB26900B80F1B /* TMemoryBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMemoryBuffer.m; sourceTree = "<group>"; };
+		A12E4F33163FB26900B80F1B /* TTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransport.h; sourceTree = "<group>"; };
+		A12E4F34163FB26900B80F1B /* TTransportException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransportException.h; sourceTree = "<group>"; };
+		A12E4F35163FB26900B80F1B /* TTransportException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTransportException.m; sourceTree = "<group>"; };
+		A12E4F37163FB26900B80F1B /* EDAM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDAM.h; sourceTree = "<group>"; };
+		A12E4F38163FB26900B80F1B /* EDAMErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDAMErrors.h; sourceTree = "<group>"; };
+		A12E4F39163FB26900B80F1B /* EDAMErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDAMErrors.m; sourceTree = "<group>"; };
+		A12E4F3A163FB26900B80F1B /* EDAMLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDAMLimits.h; sourceTree = "<group>"; };
+		A12E4F3B163FB26900B80F1B /* EDAMLimits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDAMLimits.m; sourceTree = "<group>"; };
+		A12E4F3C163FB26900B80F1B /* EDAMNoteStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDAMNoteStore.h; sourceTree = "<group>"; };
+		A12E4F3D163FB26900B80F1B /* EDAMNoteStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDAMNoteStore.m; sourceTree = "<group>"; };
+		A12E4F3E163FB26900B80F1B /* EDAMTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDAMTypes.h; sourceTree = "<group>"; };
+		A12E4F3F163FB26900B80F1B /* EDAMTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDAMTypes.m; sourceTree = "<group>"; };
+		A12E4F40163FB26900B80F1B /* EDAMUserStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDAMUserStore.h; sourceTree = "<group>"; };
+		A12E4F41163FB26900B80F1B /* EDAMUserStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDAMUserStore.m; sourceTree = "<group>"; };
+		A12E4F42163FB26900B80F1B /* EvernoteNoteStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvernoteNoteStore.h; sourceTree = "<group>"; };
+		A12E4F43163FB26900B80F1B /* EvernoteNoteStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvernoteNoteStore.m; sourceTree = "<group>"; };
+		A12E4F44163FB26900B80F1B /* EvernoteSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvernoteSDK.h; sourceTree = "<group>"; };
+		A12E4F45163FB26900B80F1B /* EvernoteSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvernoteSDK.m; sourceTree = "<group>"; };
+		A12E4F46163FB26900B80F1B /* EvernoteSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvernoteSession.h; sourceTree = "<group>"; };
+		A12E4F47163FB26900B80F1B /* EvernoteSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvernoteSession.m; sourceTree = "<group>"; };
+		A12E4F48163FB26900B80F1B /* EvernoteUserStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvernoteUserStore.h; sourceTree = "<group>"; };
+		A12E4F49163FB26900B80F1B /* EvernoteUserStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvernoteUserStore.m; sourceTree = "<group>"; };
+		A12E4F4B163FB26900B80F1B /* ENAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENAPI.h; sourceTree = "<group>"; };
+		A12E4F4C163FB26900B80F1B /* ENAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENAPI.m; sourceTree = "<group>"; };
+		A12E4F4D163FB26900B80F1B /* ENCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENCredentials.h; sourceTree = "<group>"; };
+		A12E4F4E163FB26900B80F1B /* ENCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENCredentials.m; sourceTree = "<group>"; };
+		A12E4F4F163FB26900B80F1B /* ENCredentialStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENCredentialStore.h; sourceTree = "<group>"; };
+		A12E4F50163FB26900B80F1B /* ENCredentialStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENCredentialStore.m; sourceTree = "<group>"; };
+		A12E4F51163FB26900B80F1B /* ENOAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENOAuthViewController.h; sourceTree = "<group>"; };
+		A12E4F52163FB26900B80F1B /* ENOAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENOAuthViewController.m; sourceTree = "<group>"; };
+		A12E4F53163FB26900B80F1B /* Notodex-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Notodex-Prefix.pch"; sourceTree = "<group>"; };
+		A12E4F83163FB31A00B80F1B /* FGalleryPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGalleryPhoto.h; sourceTree = "<group>"; };
+		A12E4F84163FB31A00B80F1B /* FGalleryPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGalleryPhoto.m; sourceTree = "<group>"; };
+		A12E4F85163FB31A00B80F1B /* FGalleryPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGalleryPhotoView.h; sourceTree = "<group>"; };
+		A12E4F86163FB31A00B80F1B /* FGalleryPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGalleryPhotoView.m; sourceTree = "<group>"; };
+		A12E4F87163FB31A00B80F1B /* FGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGalleryViewController.h; sourceTree = "<group>"; };
+		A12E4F88163FB31A00B80F1B /* FGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGalleryViewController.m; sourceTree = "<group>"; };
+		A12E4F89163FB31A00B80F1B /* photo-gallery-edit-caption.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-gallery-edit-caption.png"; path = "../evernote-sdk-ios/photo-gallery-edit-caption.png"; sourceTree = "<group>"; };
+		A12E4F8A163FB31A00B80F1B /* photo-gallery-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-gallery-left.png"; path = "../evernote-sdk-ios/photo-gallery-left.png"; sourceTree = "<group>"; };
+		A12E4F8B163FB31A00B80F1B /* photo-gallery-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-gallery-right.png"; path = "../evernote-sdk-ios/photo-gallery-right.png"; sourceTree = "<group>"; };
+		A12E4F8C163FB31A00B80F1B /* photo-gallery-trashcan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-gallery-trashcan.png"; path = "../evernote-sdk-ios/photo-gallery-trashcan.png"; sourceTree = "<group>"; };
+		A12E4F94163FB3DB00B80F1B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A12E4F9A163FB41B00B80F1B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A12E4F9C163FB54E00B80F1B /* NotebooksListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotebooksListViewController.h; sourceTree = "<group>"; };
+		A12E4F9D163FB54E00B80F1B /* NotebooksListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotebooksListViewController.m; sourceTree = "<group>"; };
+		A16FEE8C163FEEF400577CF2 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		A16FEE8F163FF4B700577CF2 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		A1A8912E163FDC8D0023FAF1 /* NotodexLogoRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotodexLogoRetina.png; sourceTree = SOURCE_ROOT; };
+		A1A89130163FDCD30023FAF1 /* NotodexLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotodexLogo.png; sourceTree = "<group>"; };
+		A1A89134163FDE530023FAF1 /* Launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch.png; sourceTree = "<group>"; };
+		A1A8913A163FE0610023FAF1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		A1A8913C163FE0720023FAF1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		A1A8913E163FE0D70023FAF1 /* LaunchRetina3-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchRetina3-5.png"; sourceTree = "<group>"; };
+		A1A89140163FE1140023FAF1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A12E4EE2163FB1C900B80F1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12E4F9B163FB41B00B80F1B /* QuartzCore.framework in Frameworks */,
+				A12E4F95163FB3DB00B80F1B /* Security.framework in Frameworks */,
+				A12E4EEA163FB1C900B80F1B /* UIKit.framework in Frameworks */,
+				A12E4EEC163FB1C900B80F1B /* Foundation.framework in Frameworks */,
+				A12E4EEE163FB1C900B80F1B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A12E4EDA163FB1C900B80F1B = {
+			isa = PBXGroup;
+			children = (
+				A12E4F0C163FB26900B80F1B /* evernote-sdk-ios */,
+				A12E4F82163FB2D500B80F1B /* FGallery */,
+				A12E4EEF163FB1C900B80F1B /* Notodex */,
+				A12E4EE8163FB1C900B80F1B /* Frameworks */,
+				A12E4EE6163FB1C900B80F1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A12E4EE6163FB1C900B80F1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A12E4EE5163FB1C900B80F1B /* Notodex.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A12E4EE8163FB1C900B80F1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A12E4F9A163FB41B00B80F1B /* QuartzCore.framework */,
+				A12E4F94163FB3DB00B80F1B /* Security.framework */,
+				A12E4EE9163FB1C900B80F1B /* UIKit.framework */,
+				A12E4EEB163FB1C900B80F1B /* Foundation.framework */,
+				A12E4EED163FB1C900B80F1B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A12E4EEF163FB1C900B80F1B /* Notodex */ = {
+			isa = PBXGroup;
+			children = (
+				A12E4F9C163FB54E00B80F1B /* NotebooksListViewController.h */,
+				A12E4F9D163FB54E00B80F1B /* NotebooksListViewController.m */,
+				A12E4EF8163FB1C900B80F1B /* NotodexAppDelegate.h */,
+				A12E4EF9163FB1C900B80F1B /* NotodexAppDelegate.m */,
+				A12E4F01163FB1C900B80F1B /* MainStoryboard.storyboard */,
+				A12E4F04163FB1C900B80F1B /* NotodexViewController.h */,
+				A12E4F05163FB1C900B80F1B /* NotodexViewController.m */,
+				A12E4EF0163FB1C900B80F1B /* Supporting Files */,
+			);
+			path = Notodex;
+			sourceTree = "<group>";
+		};
+		A12E4EF0163FB1C900B80F1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A16FEE8F163FF4B700577CF2 /* README.txt */,
+				A16FEE8C163FEEF400577CF2 /* LICENSE.txt */,
+				A1A89140163FE1140023FAF1 /* Default-568h@2x.png */,
+				A1A8913C163FE0720023FAF1 /* Default.png */,
+				A1A8913A163FE0610023FAF1 /* Default@2x.png */,
+				A1A8913E163FE0D70023FAF1 /* LaunchRetina3-5.png */,
+				A1A89134163FDE530023FAF1 /* Launch.png */,
+				A1A89130163FDCD30023FAF1 /* NotodexLogo.png */,
+				A1A8912E163FDC8D0023FAF1 /* NotodexLogoRetina.png */,
+				A12E4F89163FB31A00B80F1B /* photo-gallery-edit-caption.png */,
+				A12E4F8A163FB31A00B80F1B /* photo-gallery-left.png */,
+				A12E4F8B163FB31A00B80F1B /* photo-gallery-right.png */,
+				A12E4F8C163FB31A00B80F1B /* photo-gallery-trashcan.png */,
+				A12E4EF1163FB1C900B80F1B /* Notodex-Info.plist */,
+				A12E4EF2163FB1C900B80F1B /* InfoPlist.strings */,
+				A12E4EF5163FB1C900B80F1B /* main.m */,
+				A12E4EF7163FB1C900B80F1B /* Notodex-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A12E4F0C163FB26900B80F1B /* evernote-sdk-ios */ = {
+			isa = PBXGroup;
+			children = (
+				A12E4F0D163FB26900B80F1B /* 3rdParty */,
+				A12E4F36163FB26900B80F1B /* EDAM */,
+				A12E4F42163FB26900B80F1B /* EvernoteNoteStore.h */,
+				A12E4F43163FB26900B80F1B /* EvernoteNoteStore.m */,
+				A12E4F44163FB26900B80F1B /* EvernoteSDK.h */,
+				A12E4F45163FB26900B80F1B /* EvernoteSDK.m */,
+				A12E4F46163FB26900B80F1B /* EvernoteSession.h */,
+				A12E4F47163FB26900B80F1B /* EvernoteSession.m */,
+				A12E4F48163FB26900B80F1B /* EvernoteUserStore.h */,
+				A12E4F49163FB26900B80F1B /* EvernoteUserStore.m */,
+				A12E4F4A163FB26900B80F1B /* internal */,
+				A12E4F53163FB26900B80F1B /* Notodex-Prefix.pch */,
+			);
+			path = "evernote-sdk-ios";
+			sourceTree = "<group>";
+		};
+		A12E4F0D163FB26900B80F1B /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				A12E4F0E163FB26900B80F1B /* cocoa-oauth */,
+				A12E4F14163FB26900B80F1B /* NSString+URLEncoding */,
+				A12E4F18163FB26900B80F1B /* SSKeychain */,
+				A12E4F1C163FB26900B80F1B /* Thrift */,
+			);
+			path = 3rdParty;
+			sourceTree = "<group>";
+		};
+		A12E4F0E163FB26900B80F1B /* cocoa-oauth */ = {
+			isa = PBXGroup;
+			children = (
+				A12E4F0F163FB26900B80F1B /* GCOAuth.h */,
+				A12E4F10163FB26900B80F1B /* GCOAuth.m */,
+				A12E4F11163FB26900B80F1B /* LICENSE */,
+				A12E4F12163FB26900B80F1B /* NSData+Base64.h */,
+				A12E4F13163FB26900B80F1B /* NSData+Base64.m */,
+			);
+			path = "cocoa-oauth";
+			sourceTree = "<group>";
+		};
+		A12E4F14163FB26900B80F1B /* NSString+URLEncoding */ = {
+			isa = PBXGroup;
+			children = (
+				A12E4F15163FB26900B80F1B /* LICENSE */,
+				A12E4F16163FB26900B80F1B /* NSString+URLEncoding.h */,
+				A12E4F17163FB26900B80F1B /* NSString+URLEncoding.m */,
+			);
+			path = "NSString+URLEncoding";
+			sourceTree = "<group>";
+		};
+		A12E4F18163FB26900B80F1B /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				A12E4F19163FB26900B80F1B /* LICENSE */,
+				A12E4F1A163FB26900B80F1B /* SSKeychain.h */,
+				A12E4F1B163FB26900B80F1B /* SSKeychain.m */,
+			);
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		A12E4F1C163FB26900B80F1B /* Thrift */ = {
+			isa = PBXGroup;
+			children = (
+				A12E4F1D163FB26900B80F1B /* LICENSE */,
+				A12E4F1E163FB26900B80F1B /* protocol */,
+				A12E4F27163FB26900B80F1B /* TApplicationException.h */,
+				A12E4F28163FB26900B80F1B /* TApplicationException.m */,
+				A12E4F29163FB26900B80F1B /* TException.h */,
+				A12E4F2A163FB26900B80F1B /* TException.m */,
+				A12E4F2B163FB26900B80F1B /* Thrift.h */,
+				A12E4F2C163FB26900B80F1B /* TProcessor.h */,
+				A12E4F2D163FB26900B80F1B /* TProcessorFactory.h */,
+				A12E4F2E163FB26900B80F1B /* transport */,
+			);
+			path = Thrift;
+			sourceTree = "<group>";
+		};
+		A12E4F1E163FB26900B80F1B /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				A12E4F1F163FB26900B80F1B /* TBinaryProtocol.h */,
+				A12E4F20163FB26900B80F1B /* TBinaryProtocol.m */,
+				A12E4F21163FB26900B80F1B /* TProtocol.h */,
+				A12E4F22163FB26900B80F1B /* TProtocolException.h */,
+				A12E4F23163FB26900B80F1B /* TProtocolException.m */,
+				A12E4F24163FB26900B80F1B /* TProtocolFactory.h */,
+				A12E4F25163FB26900B80F1B /* TProtocolUtil.h */,
+				A12E4F26163FB26900B80F1B /* TProtocolUtil.m */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		A12E4F2E163FB26900B80F1B /* transport */ = {
+			isa = PBXGroup;
+			children = (
+				A12E4F2F163FB26900B80F1B /* THTTPClient.h */,
+				A12E4F30163FB26900B80F1B /* THTTPClient.m */,
+				A12E4F31163FB26900B80F1B /* TMemoryBuffer.h */,
+				A12E4F32163FB26900B80F1B /* TMemoryBuffer.m */,
+				A12E4F33163FB26900B80F1B /* TTransport.h */,
+				A12E4F34163FB26900B80F1B /* TTransportException.h */,
+				A12E4F35163FB26900B80F1B /* TTransportException.m */,
+			);
+			path = transport;
+			sourceTree = "<group>";
+		};
+		A12E4F36163FB26900B80F1B /* EDAM */ = {
+			isa = PBXGroup;
+			children = (
+				A12E4F37163FB26900B80F1B /* EDAM.h */,
+				A12E4F38163FB26900B80F1B /* EDAMErrors.h */,
+				A12E4F39163FB26900B80F1B /* EDAMErrors.m */,
+				A12E4F3A163FB26900B80F1B /* EDAMLimits.h */,
+				A12E4F3B163FB26900B80F1B /* EDAMLimits.m */,
+				A12E4F3C163FB26900B80F1B /* EDAMNoteStore.h */,
+				A12E4F3D163FB26900B80F1B /* EDAMNoteStore.m */,
+				A12E4F3E163FB26900B80F1B /* EDAMTypes.h */,
+				A12E4F3F163FB26900B80F1B /* EDAMTypes.m */,
+				A12E4F40163FB26900B80F1B /* EDAMUserStore.h */,
+				A12E4F41163FB26900B80F1B /* EDAMUserStore.m */,
+			);
+			path = EDAM;
+			sourceTree = "<group>";
+		};
+		A12E4F4A163FB26900B80F1B /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				A12E4F4B163FB26900B80F1B /* ENAPI.h */,
+				A12E4F4C163FB26900B80F1B /* ENAPI.m */,
+				A12E4F4D163FB26900B80F1B /* ENCredentials.h */,
+				A12E4F4E163FB26900B80F1B /* ENCredentials.m */,
+				A12E4F4F163FB26900B80F1B /* ENCredentialStore.h */,
+				A12E4F50163FB26900B80F1B /* ENCredentialStore.m */,
+				A12E4F51163FB26900B80F1B /* ENOAuthViewController.h */,
+				A12E4F52163FB26900B80F1B /* ENOAuthViewController.m */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		A12E4F82163FB2D500B80F1B /* FGallery */ = {
+			isa = PBXGroup;
+			children = (
+				A12E4F83163FB31A00B80F1B /* FGalleryPhoto.h */,
+				A12E4F84163FB31A00B80F1B /* FGalleryPhoto.m */,
+				A12E4F85163FB31A00B80F1B /* FGalleryPhotoView.h */,
+				A12E4F86163FB31A00B80F1B /* FGalleryPhotoView.m */,
+				A12E4F87163FB31A00B80F1B /* FGalleryViewController.h */,
+				A12E4F88163FB31A00B80F1B /* FGalleryViewController.m */,
+			);
+			name = FGallery;
+			path = "evernote-sdk-ios";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A12E4EE4163FB1C900B80F1B /* Notodex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12E4F09163FB1C900B80F1B /* Build configuration list for PBXNativeTarget "Notodex" */;
+			buildPhases = (
+				A12E4EE1163FB1C900B80F1B /* Sources */,
+				A12E4EE2163FB1C900B80F1B /* Frameworks */,
+				A12E4EE3163FB1C900B80F1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notodex;
+			productName = Notodex;
+			productReference = A12E4EE5163FB1C900B80F1B /* Notodex.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A12E4EDC163FB1C900B80F1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Notodex;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Andy Reyes";
+			};
+			buildConfigurationList = A12E4EDF163FB1C900B80F1B /* Build configuration list for PBXProject "Notodex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A12E4EDA163FB1C900B80F1B;
+			productRefGroup = A12E4EE6163FB1C900B80F1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A12E4EE4163FB1C900B80F1B /* Notodex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A12E4EE3163FB1C900B80F1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12E4EF4163FB1C900B80F1B /* InfoPlist.strings in Resources */,
+				A12E4F03163FB1C900B80F1B /* MainStoryboard.storyboard in Resources */,
+				A12E4F55163FB26900B80F1B /* LICENSE in Resources */,
+				A12E4F57163FB26900B80F1B /* LICENSE in Resources */,
+				A12E4F59163FB26900B80F1B /* LICENSE in Resources */,
+				A12E4F5B163FB26900B80F1B /* LICENSE in Resources */,
+				A12E4F90163FB31A00B80F1B /* photo-gallery-edit-caption.png in Resources */,
+				A12E4F91163FB31A00B80F1B /* photo-gallery-left.png in Resources */,
+				A12E4F92163FB31A00B80F1B /* photo-gallery-right.png in Resources */,
+				A12E4F93163FB31A00B80F1B /* photo-gallery-trashcan.png in Resources */,
+				A1A8912F163FDC8D0023FAF1 /* NotodexLogoRetina.png in Resources */,
+				A1A89131163FDCD30023FAF1 /* NotodexLogo.png in Resources */,
+				A1A89135163FDE530023FAF1 /* Launch.png in Resources */,
+				A1A8913B163FE0610023FAF1 /* Default@2x.png in Resources */,
+				A1A8913D163FE0720023FAF1 /* Default.png in Resources */,
+				A1A8913F163FE0D70023FAF1 /* LaunchRetina3-5.png in Resources */,
+				A1A89141163FE1140023FAF1 /* Default-568h@2x.png in Resources */,
+				A16FEE8D163FEEF400577CF2 /* LICENSE.txt in Resources */,
+				A16FEE90163FF4B700577CF2 /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A12E4EE1163FB1C900B80F1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12E4EF6163FB1C900B80F1B /* main.m in Sources */,
+				A12E4EFA163FB1C900B80F1B /* NotodexAppDelegate.m in Sources */,
+				A12E4F06163FB1C900B80F1B /* NotodexViewController.m in Sources */,
+				A12E4F54163FB26900B80F1B /* GCOAuth.m in Sources */,
+				A12E4F56163FB26900B80F1B /* NSData+Base64.m in Sources */,
+				A12E4F58163FB26900B80F1B /* NSString+URLEncoding.m in Sources */,
+				A12E4F5A163FB26900B80F1B /* SSKeychain.m in Sources */,
+				A12E4F5C163FB26900B80F1B /* TBinaryProtocol.m in Sources */,
+				A12E4F5D163FB26900B80F1B /* TProtocolException.m in Sources */,
+				A12E4F5E163FB26900B80F1B /* TProtocolUtil.m in Sources */,
+				A12E4F5F163FB26900B80F1B /* TApplicationException.m in Sources */,
+				A12E4F60163FB26900B80F1B /* TException.m in Sources */,
+				A12E4F61163FB26900B80F1B /* THTTPClient.m in Sources */,
+				A12E4F62163FB26900B80F1B /* TMemoryBuffer.m in Sources */,
+				A12E4F63163FB26900B80F1B /* TTransportException.m in Sources */,
+				A12E4F64163FB26900B80F1B /* EDAMErrors.m in Sources */,
+				A12E4F65163FB26900B80F1B /* EDAMLimits.m in Sources */,
+				A12E4F66163FB26900B80F1B /* EDAMNoteStore.m in Sources */,
+				A12E4F67163FB26900B80F1B /* EDAMTypes.m in Sources */,
+				A12E4F68163FB26900B80F1B /* EDAMUserStore.m in Sources */,
+				A12E4F69163FB26900B80F1B /* EvernoteNoteStore.m in Sources */,
+				A12E4F6A163FB26900B80F1B /* EvernoteSDK.m in Sources */,
+				A12E4F6B163FB26900B80F1B /* EvernoteSession.m in Sources */,
+				A12E4F6C163FB26900B80F1B /* EvernoteUserStore.m in Sources */,
+				A12E4F6D163FB26900B80F1B /* ENAPI.m in Sources */,
+				A12E4F6E163FB26900B80F1B /* ENCredentials.m in Sources */,
+				A12E4F6F163FB26900B80F1B /* ENCredentialStore.m in Sources */,
+				A12E4F70163FB26900B80F1B /* ENOAuthViewController.m in Sources */,
+				A12E4F8D163FB31A00B80F1B /* FGalleryPhoto.m in Sources */,
+				A12E4F8E163FB31A00B80F1B /* FGalleryPhotoView.m in Sources */,
+				A12E4F8F163FB31A00B80F1B /* FGalleryViewController.m in Sources */,
+				A12E4F9E163FB54E00B80F1B /* NotebooksListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A12E4EF2163FB1C900B80F1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12E4EF3163FB1C900B80F1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A12E4F01163FB1C900B80F1B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12E4F02163FB1C900B80F1B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A12E4F07163FB1C900B80F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A12E4F08163FB1C900B80F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A12E4F0A163FB1C900B80F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Notodex/Notodex-Prefix.pch";
+				INFOPLIST_FILE = "Notodex/Notodex-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A12E4F0B163FB1C900B80F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Notodex/Notodex-Prefix.pch";
+				INFOPLIST_FILE = "Notodex/Notodex-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A12E4EDF163FB1C900B80F1B /* Build configuration list for PBXProject "Notodex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12E4F07163FB1C900B80F1B /* Debug */,
+				A12E4F08163FB1C900B80F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A12E4F09163FB1C900B80F1B /* Build configuration list for PBXNativeTarget "Notodex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12E4F0A163FB1C900B80F1B /* Debug */,
+				A12E4F0B163FB1C900B80F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A12E4EDC163FB1C900B80F1B /* Project object */;
+}
