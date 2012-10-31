@@ -22,3 +22,6 @@ Future Features:
 - Offline viewing of business cards
 - Be able to see more than MAX_PHOTOS_TO_RETURN business cards
 - Universal app coming soon!
+
+IMPORTANT: To run this application successfully need to register for your own Evernote API Key here (http://dev.evernote.com/documentation/cloud/)
+and replace CONSUMER_KEY and CONSUMER_SECRET in NotodexAppDelegate.m.
